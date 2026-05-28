@@ -9,6 +9,7 @@
     height: 100vh;
     display: flex;
     padding: 20px;
+    background-color: #fff;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -22,17 +23,23 @@
 .page-image img{
     width: 100%;
     height: 100%;
+    z-index: 1;
     object-fit: cover;
     border-radius: 10px;
 }
+.page-image img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
 
 .chef-page-content{
-    width: 40%;
-    height: 100vh;
+    width: 60%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
+    margin: auto 50px;
     font-family: 'Poppins', sans-serif;
     font-size: 1.25rem;
     align-items: center;
@@ -45,4 +52,97 @@
     font-weight: 600;
     font-style: italic;
     text-shadow: 2px 2px 4px rgba(0, 0.8, 0, 0.5);
+
+}
+
+.chef-page-content h3{
+    font-size: 1.25rem;
+    color: rgb(222, 51, 51);
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.chef-page-content p{
+    font-size: 1.25rem;
+    color: #4d4b4b;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.chef-page-content hr{
+    color: #484141;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.chef-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.chef-info > div:first-child{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #5426df;
+    border: 3px solid #d47b7b;
+}
+
+.chef-info h4{
+   color: #000;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.chef-info span{
+    color: #716f6f;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.box-in{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #dc9191;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(40px);
+    font-size: 1.25rem;
+    z-index: 1;
+}
+
+
+.box-in-again{
+    background-color: #2a58e3;
+    border-radius: 100%;
+    width: 100px;    
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 460px;
+    transform: translateY(-50px);
+    animation: move 2s ease-out 10;
+
+
+}
+
+.box-in-again > span:first-child{
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 500;
 }
