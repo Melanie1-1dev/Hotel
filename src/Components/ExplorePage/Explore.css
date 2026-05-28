@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.explore-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    color: #000;
+    gap: 20px;
+}
+
+.explore-page h1{
+    font-size: 3rem;
+    color: rgb(4, 72, 114);
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0.8, 0, 0.5);
+}
+.explore-page h3{
+    font-size: 1.5rem;
+    color: rgb(233, 108, 46);
+    text-align: center;
+    align-items: center;
+}
+.explore-content-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    gap: 20px;
+}
+.explore-page p{
+    font-size: 1rem;
+    color: rgb(31, 31, 33);
+    text-align: center;
+    align-items: center;
+}
+.explore-testimonials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
