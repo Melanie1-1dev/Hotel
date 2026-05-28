@@ -9,7 +9,7 @@
     height: 100vh;
     display: flex;
     padding: 20px;
-    background-color: #fff;
+    background-color: #F8F6F0;
     flex-direction: column;
     align-items: center;
     font-family: 'Poppins', sans-serif;
@@ -34,15 +34,17 @@
     align-items: center;
 }
 .explore-content-in{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 50%;
     height: 50vh;
     gap: 20px;
+    animation: move 1s ease-in-out;
 }
 .explore-page p{
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: rgb(31, 31, 33);
     text-align: center;
     align-items: center;
@@ -53,4 +55,73 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 87%;
+    height: 50vh;
+
+}
+
+.testimonies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    width: 40%;
+    height: 35vh;
+    background-color: #f8f2f2;
+    border-radius: 20px;
+    z-index: 1;
+    padding: 20px;
+    animation: testimoniesAnimation 1s ease-in-out;
+    box-shadow: 5px 13px 12px rgb(1, 82, 4);
+}
+.testimonies > span:first-child{
+    font-size: 2rem;
+}
+
+.tesatimonies > span:last-child{
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.testimonies p{
+    font-size: 1rem;
+    color: #7f7d7d;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonies:hover{
+    background-color: #f8f2f2;
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes testimoniesAnimation {
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes move {
+    from{
+        transform: translateX(-100%);
+        opacity: 0.3;
+        color: #000;
+    }
+    to{
+
+        transform: translateX(0);
+        opacity: 0.6;
+        color: #cc8f8f;
+    }
 }

@@ -20,23 +20,23 @@ const ExplorePage = () => {
             <div className="testimonies">
                 <span>🪴</span>
                 <span>Fresh Ingredients</span>
-               Sourced daily for unparalleled freshness and quality.
+                <p>Sourced daily for unparalleled freshness and quality.</p>    
             </div>
             <div className="testimonies">
                 <span>🎨</span>
                 <span>Artisanal Plates</span>
-                Every dish crafted with meticulous attention 
-                and creative flair.
+                <p>Every dish crafted with meticulous attention 
+                and creative flair.</p>
             </div>
             <div className="testimonies">
                 <span>🌟</span>
                <span> Elegant Ambiance</span>
-Sophisticated dining in a warm, welcoming coastal setting.
+                <p>Sophisticated dining in a warm, welcoming coastal setting.</p>
             </div>
             <div className="testimonies">
                 <span>🥂</span>
                 <span>Impeccable Service</span>
-Attentive care that anticipates your every need.
+                <p>Attentive care that anticipates your every need.</p>
             </div>
         </div>
 
