@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
 
-      <div className="navbar">
+      <nav className="navbar">
        <div className="logo-in-nav">
         
           <h1>  <span className='logo-assist'>
@@ -22,7 +22,11 @@ const Navbar = () => {
             <li><a href="#">Chef</a></li>
             <li><a href="#">Contacts</a></li>
           </ul>
-      </div>
+
+          <div className="user-account-info">
+            R
+          </div>
+      </nav>
       
     </div>
   )
