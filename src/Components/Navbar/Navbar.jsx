@@ -17,7 +17,7 @@ const Navbar = () => {
         
          <ul className="nav-links"> 
        <Link to="/"> <li><a>Home</a></li></Link>
-            <li><a href="#">Experience</a></li>
+       <Link to="/explore"> <li><a>Experience</a></li></Link>
             <li><a href="#">Menu</a></li>
        <Link to="/chef"><li><a>Chef</a></li></Link>
             <li><a href="#">Contacts</a></li>
