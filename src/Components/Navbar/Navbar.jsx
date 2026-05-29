@@ -18,9 +18,9 @@ const Navbar = () => {
          <ul className="nav-links"> 
        <Link to="/"> <li><a>Home</a></li></Link>
        <Link to="/explore"> <li><a>Experience</a></li></Link>
-            <li><a href="#">Menu</a></li>
+        <Link to="/menu"><li><a>Menu</a></li></Link>    
        <Link to="/chef"><li><a>Chef</a></li></Link>
-            <li><a href="#">Contacts</a></li>
+         <Link to="/contacts">        <li><a>Contacts</a></li></Link>
           </ul>
 
           <div className="user-account-info">
