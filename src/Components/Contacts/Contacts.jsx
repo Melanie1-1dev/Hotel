@@ -4,7 +4,12 @@ import './Contacts.css'
 const Contacts = () => {
   return (
     <div className='footer-in'>
-        <div className="first-in">
+        <div className="empty">
+
+        </div>
+        <div className="column">
+        <div className="content-in-footer">
+            <div className="first-in">
             <h3>Hotel</h3>
             <p>A culinary destination where Mediterranean flavors meet modern elegance.
                  Join us for an unforgettable dining experience.</p>
@@ -33,13 +38,19 @@ const Contacts = () => {
             <p>Stay updated with our latest offerings and events.</p>
             <input type="text" placeholder='Your email address'/>
         </div>
+            </div>
 
-        <div className="fifth">
+       < div className="fifth">
+       <div className="fifth">
             <hr />
 
             &copy; 2026 Hotel Restaurant. All Rights Reserved. Crafted with passion.
 
         </div>
+            </div>
+        
+        </div>
+        
       
     </div>
   )
