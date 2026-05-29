@@ -1,7 +1,7 @@
 import React from 'react'
-import './Footer.css'
+import './Contacts.css'
 
-const Footer = () => {
+const Contacts = () => {
   return (
     <div className='footer-in'>
         <div className="first-in">
@@ -45,4 +45,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Contacts;

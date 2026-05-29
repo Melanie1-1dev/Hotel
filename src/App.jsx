@@ -4,8 +4,8 @@ import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
 import ChefPage from './Components/ChefPage/ChefPage'
 import ExplorePage from './Components/ExplorePage/ExplorePage'
+import Contacts from './Components/Contacts/Contacts'
 import AddOrder from './Components/AddOrder/AddOrder'
-import Footer from './Components/Footer/Footer'
 
 
 const App = () => {
@@ -17,8 +17,8 @@ const App = () => {
         <Route path='/' element={<Home />} />   
         <Route path='/chef' element={<ChefPage />} /> 
         <Route path='/explore' element={<ExplorePage />} />
-        <Route path='/add-order' element={<AddOrder />} />
-        <Route path='/footer' element={<Footer />} />
+        <Route path='/menu' element={<AddOrder />} />
+        <Route path='/contacts' element={<Contacts />} />
       </Routes>
       
     </div>
