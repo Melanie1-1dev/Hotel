@@ -12,23 +12,45 @@ const AddOrder = () => {
                 cuisine. We recommend booking in advance.</p>
         </div>
 
-        <div className="form-add-in">
+        <div className="form-add-container">
 
-            <form action="#">
+          <div className="form-container">
+              <form action="#">
 
-                <span>Date</span>
+                <div className="date-time-inputs">
+                    <span>Date</span>
                 <input type="date" />
                 <span>Time</span>
-                <input type="time" />
-                <span>Guests</span>
-                <input type="text" />
-                <select name="" id=""></select>
+                <select name="time" id="time">
+
+                  <option>6:00 PM</option>
+                  <option>6:30 PM</option>
+                  <option>7:00 PM</option>
+                  <option>7:30 PM</option>
+                  <option>8:00 PM</option>
+                  <option>8:30 PM</option>
+                </select>
+                </div>
+              <div className="personal-info">
+                    <span>Guests</span>
+                    <select name="guests" id="guests">
+                        
+                  <option>2 guests</option>
+                  <option>3 guests</option>
+              <option>4 guests</option>
+              <option>5 guests</option>
+              <option>6 guests</option>
+              <option>Larger party(Contact us)</option>
+            </select>
                 <span>Name</span>
                 <input type="text" placeholder='Your full name'/>
+                </div>
+
                 <div className="btn-to-submit">
-                    <button>CONFIRM RESERVATION</button>
+                    <button type="submit">CONFIRM RESERVATION</button>
                 </div>
             </form>
+          </div>
 
         </div>
       

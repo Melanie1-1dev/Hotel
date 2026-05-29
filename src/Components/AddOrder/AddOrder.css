@@ -6,7 +6,7 @@
 
 .add-order-container{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@
 
 .content-in-add-{
     width: 70%;
-    height: 100vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,3 +37,107 @@
 .content-in-add- p{
     color: rgb(83, 81, 81);
 }
+
+.form-container{
+    width: 100%;
+    height: 50vh;
+    margin: auto auto 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f2eed8;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.form-container form h2{
+    font-size: 2rem;
+    color: rgb(222, 51, 51);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0.8, 0, 0.5);
+}
+
+.form-container form{
+    box-shadow:  5px 5px 10px rgb(65, 1, 82);
+    
+}
+
+.form-container form:hover{
+    background-color: #f8f2f2;
+    transition: background-color 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: 5px 13px 12px rgb(1, 82, 4);
+    
+}
+form span{
+    font-size: 1.25rem;
+    color: rgb(83, 81, 81);
+    align-self: center;
+    justify-self: flex-start;
+
+}
+
+form input, form select{
+    width: 60%;
+    padding: 10px;
+    border: 1px solid rgb(193, 191, 191);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.date-time-inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.personal-info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.btn-to-submit{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-to-submit button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #d47b7b;
+    color: #000;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-to-submit button:hover{
+    background-color: #be5b0a;
+    color: #000;
+    transition: background-color 0.3s ease;
+    transform: scale(1.1);
+    transform: translateY(-5px);
+    animation: display 0.3s ease-in-out;
+}   
