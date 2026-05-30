@@ -10,7 +10,7 @@ const Contacts = () => {
 
         {/* Logo Section */}
         <div className="footer-box">
-          <h1 className="logo">Remo</h1>
+          <h1 className="logo">Hot💫el🌟 </h1>
 
           <p>
             A culinary destination where Mediterranean flavors meet modern
@@ -68,7 +68,7 @@ const Contacts = () => {
 
       <div className="footer-bottom">
         <p>
-          © 2026 Remo Restaurant. All Rights Reserved. Crafted with passion.
+          © 2026 Hot💫el🌟 Restaurant. All Rights Reserved. Crafted with passion.
         </p>
       </div>
     </div>
